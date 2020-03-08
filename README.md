@@ -1,5 +1,9 @@
 **A Nodemcu(lua) based solution for Octoprint. Requires MQTT plugin for Octoprint.** 
 
+Block diagram
+
+![https://github.com/limbo666/ESP8266-Octoprint-lights-via-MQTT/blob/master/images/block%20diagram.png?raw=true]()
+
 The solution can turn on lights when printing process starts, change color on led strip when print is finished / canceled, turn off the lights after specific time of inactivity, receive manual commands to turn off/on the lights and more.
 
 **Functions:** 
