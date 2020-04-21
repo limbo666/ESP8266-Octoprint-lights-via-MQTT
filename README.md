@@ -11,7 +11,7 @@ The solution can turn on lights when printing process starts, change color on le
 - Turns on the lights when printer starts.
 - Turns off the lights after printer inactivity. 10 minutes after last job done, 30 minutes if no action is reported by printer.
 - Indicates with color the job result. GREEN = success, RED= Failed/Canceled
-- Indicated file loaded / unloaded
+- Indicates file loaded / unloaded
 - Manual control option via MQTT messages
 - Highly customizable
 
@@ -29,7 +29,7 @@ The solution can turn on lights when printing process starts, change color on le
 
 3. Flash WEMOS D1 mini with NodeMCU firmware Use the latest Esptool from here https://github.com/marcelstoer/nodemcu-pyflasher/releases to flash the firmware to the board.
 
-4. Use your proffered lua upload software to connect with the board and edit the files. 
+4. Use your preferred lua upload software to connect with the board and edit the files. 
 
    *Note: After firmware flashing a format filesystem will be performed on the board. This may take few seconds and it will be indicated on the software.*
 
